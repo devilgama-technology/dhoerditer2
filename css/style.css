@@ -336,6 +336,11 @@
     border-radius: 50%;
     width: 80%;
   }
+
+  .divisi .row .divisi-card img:hover {
+    transform: scale(1.15);
+    
+  }
   
   .divisi .row .divisi-card .divisi-card-title {
     margin: 1rem auto 0.5rem;
