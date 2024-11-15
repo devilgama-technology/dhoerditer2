@@ -21,7 +21,7 @@
   
   body {
     font-family: "Poppins", sans-serif;
-    background-color: #874f41;
+    background-image: linear-gradient(0deg, #a55247, #580303);
     color: #fff;
     height: auto;
   }
@@ -345,14 +345,14 @@
   }
   
   .divisi .row .divisi-card .divisi-card-title {
-    margin: 1rem auto 0.5rem;
+    margin: 1rem auto 15rem;
     font-size: large;
     text-decoration: none;
     color: #fff;
   }
   
   /* Product Section */
-  .tujuan .des p {
+  /* .tujuan .des p {
     border-style: none none solid none;
   }
 
@@ -437,9 +437,9 @@
     padding: 6rem;
     border-radius: 18px;
   }
-  
+   */
   /* Contact Section */
-  .daftar .row {
+  /* .daftar .row {
     display: flex;
     margin-top: 2rem;
     background-color: #222;
@@ -508,9 +508,9 @@
     color: var(--primary);
     transition-duration: 0.5s;
   }
-  
+   */
   /* Footer */
-  footer {
+  /* footer {
     background-color: var(--primary);
     text-align: center;
     padding: 1rem 0 3rem;
@@ -548,7 +548,7 @@
   footer .credit a {
     color: var(--bg);
     font-weight: 700;
-  }
+  } */
 
   /* Calendar */
   .calendar {
@@ -557,11 +557,30 @@
   }
   
   /* Media Queries */
+  /* Super Large Screen */
+  @media (max-width: 8000px) {
+
+
+    .divisi .row .divisi-card .divisi-card-title {
+      margin: 1rem auto 20rem;
+      font-size: large;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
   /* Laptop */
   @media (max-width: 1366px) {
     html {
       font-size: 75%;
     }
+
+    .divisi .row .divisi-card .divisi-card-title {
+      margin: 1rem auto 0.5rem;
+      font-size: large;
+      text-decoration: none;
+      color: #fff;
+    }
+
   }
   /* Tablet */
   @media (max-width: 768px) {
@@ -636,6 +655,13 @@
   
   .daftar .row form {
     padding-top: 0;
+  }
+
+  .divisi .row .divisi-card .divisi-card-title {
+    margin: 1rem auto 0.5rem;
+    font-size: large;
+    text-decoration: none;
+    color: #fff;
   }
   }
   
